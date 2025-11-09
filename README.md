@@ -8,9 +8,11 @@ A simple collection of Home Assistant cards for my own convenience.
 
 Simply copy-paste the yaml code :)
 
-| Cards | Description | Requires |
+## ✅ Collection
+
+| Cards | Description | Dependencies  |
 |:-----:|:-----:|:-----:|
-| [3d-printer-card](https://github.com/EddieKantu/Home-Assistant-Cards/blob/main/3dprintercard) | Displays print progress in % and remaining print time | custom:button-card |
+| [3d-printer-card](https://github.com/EddieKantu/Home-Assistant-Cards/blob/main/3dprintercard) | Displays print progress in % and remaining print time | [custom:button-card](https://github.com/custom-cards/button-card) |
 
 
 ## 🖼️ Screenshots
