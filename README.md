@@ -4,24 +4,32 @@
 
 A simple collection of Home Assistant cards for my own convenience.
 
+## 📚 Table of Contents
+- [Installation](#-installation)
+- [Collection](#-collection)
+- [Screenshots](#-screenshots)
+- [License](#-license)
+
+
 ## 📦 Installation
 
 Simply copy-paste the yaml code :)
 
 ## ✅ Collection
 
-| Cards | Description | Dependencies  |
-|:-----:|:-----:|:-----:|
-| [3D Printer Card](https://github.com/EddieKantu/Home-Assistant-Cards/blob/main/3dprintercard) | Displays print progress in % and remaining print time | [custom:button-card](https://github.com/custom-cards/button-card) |
-| [Lamp Card](https://github.com/EddieKantu/Home-Assistant-Cards/blob/main/cards/Lamp%20Card) | Displays lamp status | [custom:button-card](https://github.com/custom-cards/button-card) |
+| Card | Description | Requires |
+|------|-------------|----------|
+| [3D Printer Card](cards/3d-printer-card) | Shows progress % & remaining time | [button-card](https://github.com/custom-cards/button-card) |
+| [Lamp Card](cards/Lamp%20Card) | Displays lamp state & toggle | [button-card](https://github.com/custom-cards/button-card) |
 
 ## 🖼️ Screenshots
 
-[3D Printer Card](https://github.com/EddieKantu/Home-Assistant-Cards/blob/main/cards/3d-printer-card)
-
+### 3D Printer Card
 <img src="https://github.com/user-attachments/assets/3793a81c-24fa-48ab-808d-9d1b4ec6c226" width="400" />
 
-[Lamp Card](https://github.com/EddieKantu/Home-Assistant-Cards/blob/main/cards/Lamp%20Card)
+### Lamp Card
+<img src="https://github.com/user-attachments/assets/ef16f626-8a96-4fb6-ae20-c7b284d1fc76" width="400" />
 
-<img src="https://github.com/user-attachments/assets/ef16f626-8a96-4fb6-ae20-c7b284d1fc76" width="380" />
+## 📄 License
+This project is licensed under the MIT License.
 
