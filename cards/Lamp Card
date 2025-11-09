@@ -1,0 +1,63 @@
+type: custom:button-card
+entity: light.desklamp
+show_icon: true
+show_state: true
+state_display: |
+  [[[
+    if (entity.state === 'on') {
+      return Math.round(entity.attributes.brightness / 2.55) + '%';
+    } else {
+      return '0%';
+    }
+  ]]]
+tap_action:
+  action: toggle
+hold_action:
+  action: more-info
+styles:
+  grid:
+    - grid-template-areas: "\"i n\" \"i s\""
+    - grid-template-rows: 1fr 1fr
+    - grid-template-columns: 1fr 1fr
+  card:
+    - background: "#282424"
+    - height: 120px
+    - border: none
+    - border-radius: 30px
+  icon:
+    - width: 30px
+    - height: 30px
+    - position: absolute
+    - justify-self: left
+    - padding-right: 50px
+    - color: "#6f512e"
+  name:
+    - font-size: 1em
+    - font-weight: 500
+    - align-self: start
+    - justify-self: left
+    - position: absolute
+    - color: "#6f512e"
+    - padding-top: 30px
+    - padding-left: 60px
+  state:
+    - font-size: 0.9em
+    - font-weight: 400
+    - justify-self: left
+    - align-self: end
+    - position: absolute
+    - color: "#6f512e"
+    - padding-bottom: 30px
+    - padding-left: 60px
+state:
+  - value: "on"
+    styles:
+      card:
+        - border: 1px solid
+        - border-color: "#FFB267"
+      icon:
+        - color: "#FFB267"
+      name:
+        - color: "#FFB267"
+      state:
+        - color: "#FFB267"
